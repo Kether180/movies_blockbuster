@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app,
+html {
+  overflow-x: hidden;
+  width: auto;
+  font-weight: normal;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  text-align: center;
+
+  margin: 0 auto;
+  background: #0a0a27;
+  color: rgb(241, 233, 233);
+
+  min-width: 1024px;
+  display: flex;
+  align-items: center;
+  background-size: 800px 114px;
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(254, 254, 255);
+  transition: 0.4s;
+  font-size: 25px;
+}
+a1 {
+  text-decoration: none;
+  color: rgb(244, 245, 248);
+  transition: 0.4s;
+  font-size: 10px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(241, 100%, 37%, 0.2);
+  }
+}
+
+nav a.router-link-exact-active {
+  color: var(--color-text);
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 1px solid var(--color-border);
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font: 14px/20px Roboto, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: #f7f2f1;
+    font-weight: bold;
+  }
+
+  h2 {
+    color: #f7f2f1;
+    font-weight: bold;
+  }
+}
