@@ -16,44 +16,26 @@
       <img src="@/assets/batman.jpg" alt="Batman" class="movie-images" />
       <br />
       <RouterLink to="/filmsaction"><p>Action</p></RouterLink> <br />
-      <h2>The Batman</h2>
-
-      <br />
 
       <img src="@/assets/vildmaend.jpg" alt="vilmaend" class="movie-images" />
       <br />
       <RouterLink to="/filmscomedy"><p>Comedy</p></RouterLink> <br />
-      <h2>Vilmaend</h2>
-
-      <br />
 
       <img src="@/assets/love.jpg" alt="Redeeming" class="movie-images" />
       <br />
       <RouterLink to="/filmsromance"><p>Romance</p></RouterLink> <br />
-      <h2>Redeeming Love</h2>
-      
-      <br />
 
-      <img src="@/assets/love.jpg" alt="Redeeming" class="movie-images" />
+      <img src="@/assets/gold.jpg" alt="gold" class="movie-images" />
       <br />
       <RouterLink to="/filmsromance"><p>Thriller</p></RouterLink> <br />
-      <h2>Redeeming Love</h2>
-      
-      <br />
 
-      <img src="@/assets/love.jpg" alt="Redeeming" class="movie-images" />
+      <img src="@/assets/skyggenimitøje.jpg" alt="øje" class="movie-images" />
       <br />
       <RouterLink to="/filmsromance"><p>War</p></RouterLink> <br />
-      <h2>Redeeming Love</h2>
-      
-      <br />
 
-      <img src="@/assets/love.jpg" alt="Redeeming" class="movie-images" />
+      <img src="@/assets/druk.jpg" alt="druk" class="movie-images" />
       <br />
       <RouterLink to="/filmsromance"><p>Drama</p></RouterLink> <br />
-      <h2>Redeeming Love</h2>
-
-      <br />
     </div>
   </main>
 </template>
