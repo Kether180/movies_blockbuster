@@ -6,10 +6,10 @@
   <img
     class="object-contain h-20 w-30"
     alt="Vue logo"
-    src="@/assets/blockbusterlogo.jpg"
+    src="@/assets/blockbuster.jpg"
   />
 </header>
-  <!-- Navbar Router links -->
+  <!-- Navbar Router links -->S
   <nav>
     <p>
       <RouterLink to="/">Home</RouterLink>
