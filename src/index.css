@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-#app,
-html {
+
+@media (min-width: 992px) {
+  #app, html {
+
+
   overflow-x: hidden;
   width: auto;
   font-weight: normal;
@@ -25,8 +28,11 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0 2rem;
+   
+  }
 }
 
+  
 a {
   text-decoration: none;
   color: rgb(254, 254, 255);

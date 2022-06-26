@@ -2,13 +2,13 @@
   <!-- Navigation-->
 
   <!--Logo -->
-
+<header> 
   <img
     class="object-contain h-20 w-30"
     alt="Vue logo"
     src="@/assets/blockbuster-logo.jpg"
   />
-
+</header>
   <!-- Navbar Router links -->
   <nav>
     <p>
@@ -17,6 +17,7 @@
       <RouterLink to="/series">Series</RouterLink>
     </p>
   </nav>
+  
   <body>
     <HomeBlockbuster />
   </body>
