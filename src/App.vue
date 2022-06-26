@@ -6,7 +6,7 @@
   <img
     class="object-contain h-20 w-30"
     alt="Vue logo"
-    src="@/assets/blockbuster-logo.jpg"
+    src="@/assets/blockbusterlogo.jpg"
   />
 </header>
   <!-- Navbar Router links -->
