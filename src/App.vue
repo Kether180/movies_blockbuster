@@ -9,7 +9,7 @@
     src="@/assets/blockbuster.jpg"
   />
 </header>
-  <!-- Navbar Router links -->S
+  <!-- Navbar Router links -->
   <nav>
     <p>
       <RouterLink to="/">Home</RouterLink>
