@@ -29,7 +29,7 @@
       <br />
       <RouterLink to="/filmsromance"><p>Thriller</p></RouterLink> <br />
 
-      <img src="@/assets/skyggenimitøje.jpg" alt="øje" class="movie-images" />
+      <img src="@/assets/skyggenimitoje.jpg" alt="øje" class="movie-images" />
       <br />
       <RouterLink to="/filmsromance"><p>War</p></RouterLink> <br />
 
