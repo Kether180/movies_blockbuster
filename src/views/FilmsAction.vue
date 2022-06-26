@@ -7,23 +7,19 @@
     <Films />
     <div class="columns-3">
       <img src="@/assets/batman.jpg" alt="Batman" class="movie-images" />
-      <h2>The Batman</h2>
-      <h2>Release Year</h2>
-      <h2>Trailer</h2>
-
+      <br><h2>The Batman</h2>
+     
       <br />
 
       <img src="@/assets/matrix.jpg" alt="Matrix" class="movie-images" />
-      <h2>Matrix Resurrection</h2>
-      <h2>Release Year</h2>
-      <h2>Trailer</h2>
+      <br><h2>Matrix Resurrection</h2>
+      
 
       <br />
 
       <img src="@/assets/moonfall.jpg" alt="Moonfall" class="movie-images" />
-      <h2>Moonfall</h2>
-      <h2>Release Year</h2>
-      <h2>Trailer</h2>
+      <br><h2>Moonfall</h2>
+     
 
       <br />
     </div>

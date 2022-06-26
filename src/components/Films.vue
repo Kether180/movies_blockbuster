@@ -11,7 +11,7 @@ export default {
 <template>
   <div id="data">
 
-    Javascript soon 
+  
     <p class="greeting">{{  }}</p>
   </div>
 </template>

@@ -2,7 +2,9 @@
 
 <template>
   <main>
-    <h1 class="text-center text-2xl text-white">TOP MOVIES & SERIES 2022</h1>
+    <h1 class="text-center text-2xl text-white">
+      TOP BEST FILMS & SERIES 2022
+    </h1>
 
     <p class="text-yellow-300 text-xl">
       <br />
@@ -13,44 +15,42 @@
 
     <br />
     <div class="columns-3">
-      <img src="@/assets/vildmaend.jpg" alt="vilmaend" class="movie-images" />
-      <br />
-      <h2>Vildmaend</h2>
-
-      <br />
-
-      <img src="@/assets/ternetninja.jpg" alt="ninja" class="movie-images" />
-      <br />
-      <h2>Ternet Ninja 2</h2>
-
-      <br />
-
-      <img src="@/assets/jackass.jpg" alt="ass" class="movie-images" />
-      <br />
-      <h2>Jackass Forever</h2>
-
-      <br />
-
-      <img src="@/assets/startupserier.jpg" alt="ass" class="movie-images" />
-      <br />
-      <h2>Start Up</h2>
-
-      <br />
-
       <img src="@/assets/matrix.jpg" alt="Matrix" class="movie-images" />
       <br />
-      <h2>Matrix Resurrection</h2>
+      <RouterLink to="/filmsaction"><p>Action</p></RouterLink> <br />
 
+      <img src="@/assets/vildmaend.jpg" alt="vilmaend" class="movie-images" />
       <br />
+      <RouterLink to="/filmscomedy"><p>Comedy</p></RouterLink> <br />
 
-      <img src="@/assets/batman.jpg" alt="batman" class="movie-images" />
+      <img src="@/assets/smageafsult.jpg" alt="Smagen" class="movie-images" />
       <br />
-      <h2>The Batman</h2>
+      <RouterLink to="/filmsromance"><p>Romance</p></RouterLink> <br />
 
+      <img src="@/assets/gold.jpg" alt="gold" class="movie-images" />
       <br />
+      <RouterLink to="/filmsthriller"><p>Thriller</p></RouterLink> <br />
+
+      <img src="@/assets/skyggenimitoje.jpg" alt="øje" class="movie-images" />
+      <br />
+      <RouterLink to="/filmswar"><p>War</p></RouterLink> <br />
+
+      <img src="@/assets/druk.jpg" alt="druk" class="movie-images" />
+      <br />
+      <RouterLink to="/filmsdrama"><p>Drama</p></RouterLink> <br />
     </div>
   </main>
 </template>
+
+<script>
+import HomeBlockbuster from "@/components/HomeBlockbuster.vue";
+
+export default {
+  components: {
+    HomeBlockbuster,
+  },
+};
+</script>
 
 <style>
 @import "@/index.css";

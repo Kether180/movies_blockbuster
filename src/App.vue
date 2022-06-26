@@ -23,6 +23,8 @@
   </body>
 
   <RouterView />
+
+  
 </template>
 
 <script>
@@ -34,6 +36,9 @@ export default {
     HomeBlockbuster,
   },
 };
+
+
+
 </script>
 
 <style>

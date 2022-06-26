@@ -6,12 +6,12 @@
     <br />
     <div class="columns-3">
       <img src="@/assets/love.jpg" alt="Redeeming" class="movie-images" />
-      <h2>Redeeming Love</h2>
+      <br><h2>Redeeming Love</h2>
 
       <br />
 
       <img src="@/assets/smageafsult.jpg" alt="Smage" class="movie-images" />
-      <h2>Smage Af Sult</h2>
+      <br><h2>Smage Af Sult</h2>
 
       <br />
 
@@ -20,7 +20,7 @@
         alt="tagminhaand"
         class="movie-images"
       />
-      <h2>Tag Min Hånd</h2>
+      <br><h2>Tag Min Hånd</h2>
 
       <br />
     </div>

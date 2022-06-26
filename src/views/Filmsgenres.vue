@@ -31,7 +31,7 @@
 
       <img src="@/assets/skyggenimitoje.jpg" alt="øje" class="movie-images" />
       <br />
-      <RouterLink to="/filmsromance"><p>War</p></RouterLink> <br />
+      <RouterLink to="/filmswar"><p>War</p></RouterLink> <br />
 
       <img src="@/assets/druk.jpg" alt="druk" class="movie-images" />
       <br />

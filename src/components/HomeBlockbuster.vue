@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <p class="greeting">{{HOALLALA}}</p>
+  <p class="greeting">{{dsgdsgd}}</p>
 </template>
 
 
