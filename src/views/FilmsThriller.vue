@@ -23,6 +23,9 @@
 
       <br />
     </div>
+     <h2 class="text-2xl text-yellow-300">
+      Summer Offer !  Buy now for 49,-/stk
+    </h2>
   </main>
 </template>
 

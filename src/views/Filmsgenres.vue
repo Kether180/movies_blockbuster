@@ -17,7 +17,7 @@
       <br />
       <RouterLink to="/filmsaction"><p>Action</p></RouterLink> <br />
 
-      <img src="@/assets/vildmaend.jpg" alt="vilmaend" class="movie-images" />
+      <img src="@/assets/ternetninja.jpg" alt="ninja" class="movie-images" />
       <br />
       <RouterLink to="/filmscomedy"><p>Comedy</p></RouterLink> <br />
 
@@ -25,17 +25,17 @@
       <br />
       <RouterLink to="/filmsromance"><p>Romance</p></RouterLink> <br />
 
-      <img src="@/assets/gold.jpg" alt="gold" class="movie-images" />
+      <img src="@/assets/pig.jpg" alt="pig" class="movie-images" />
       <br />
       <RouterLink to="/filmsromance"><p>Thriller</p></RouterLink> <br />
 
-      <img src="@/assets/skyggenimitoje.jpg" alt="øje" class="movie-images" />
+      <img src="@/assets/recon.jpg" alt="recon" class="movie-images" />
       <br />
       <RouterLink to="/filmswar"><p>War</p></RouterLink> <br />
 
-      <img src="@/assets/druk.jpg" alt="druk" class="movie-images" />
+      <img src="@/assets/fatherstu.jpg" alt="fa" class="movie-images" />
       <br />
-      <RouterLink to="/filmsromance"><p>Drama</p></RouterLink> <br />
+      <RouterLink to="/filmsdrama"><p>Drama</p></RouterLink> <br />
     </div>
   </main>
 </template>
