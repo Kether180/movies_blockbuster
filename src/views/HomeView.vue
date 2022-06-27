@@ -43,11 +43,11 @@
 </template>
 
 <script>
-import HomeBlockbuster from "@/components/HomeBlockbuster.vue";
+
 
 export default {
   components: {
-    HomeBlockbuster,
+    
   },
 };
 </script>

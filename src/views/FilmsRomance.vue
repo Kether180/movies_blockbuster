@@ -11,16 +11,16 @@
         alt="Redeeming"
       />
       <br />
-      <h2>Redeeming Love</h2>
+      <h2>{{ errorMessage }} {{ FilmTitle }}</h2>
+      <h2>{{ errorMessage }} {{ FilmDescription }}</h2>
 
       <br />
 
       <img src="@/assets/smageafsult.jpg" alt="Smage" class="movie-images" />
       <br />
-      <h2>Smage Af Sult</h2>
-
+      <h2>{{ errorMessage }} {{ FilmTitle }}</h2>
+      <h2>{{ errorMessage }} {{ FilmDescription }}</h2>
       <br />
-
 
       <img
         src="@/assets/tagminhaand.jpg"
@@ -28,12 +28,13 @@
         class="movie-images"
       />
       <br />
-      <h2>Tag Min Hånd</h2>
+      <h2>{{ errorMessage }} {{ FilmTitle }}</h2>
+      <h2>{{ errorMessage }} {{ FilmDescription }}</h2>
 
       <br />
     </div>
-     <h2 class="text-2xl text-yellow-300">
-      Summer Offer !  Buy now for 49,-/stk
+    <h2 class="text-2xl text-yellow-300">
+      Summer Offer ! Buy now for 49,-/stk
     </h2>
   </main>
 </template>

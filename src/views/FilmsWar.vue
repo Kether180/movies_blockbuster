@@ -1,40 +1,45 @@
+<script setup></script>
+
 <template>
-   <div class="columns-3 text-center">
-    
-    <div>Error message: {{ errorMessage }}</div>
-     <div class="columns-3">All Films: {{AllFilms}}</div>
-  </div>
+  <main>
+    <h1 class="text-center text-2xl">WAR</h1>
+    <br />
+    <div class="columns-3">
+      <img
+        class="object-cover h-50 w-100"
+        src="@/assets/naturallight.jpg"
+        alt="Light"
+      />
+      <br />
+      <h2>{{ errorMessage }} {{ FilmTitle }}</h2>
+      <h2>{{ errorMessage }} {{ FilmDescription }}</h2>
+
+      <br />
+
+      <img src="@/assets/recon.jpg" alt="Recon" class="movie-images" />
+      <br />
+      <h2>{{ errorMessage }} {{ FilmTitle }}</h2>
+      <h2>{{ errorMessage }} {{ FilmDescription }}</h2>
+
+      <br />
+
+      <img
+        src="@/assets/skyggenimitoje.jpg"
+        alt="tagminhaand"
+        class="movie-images"
+      />
+      <br />
+      <h2>{{ errorMessage }} {{ FilmTitle }}</h2>
+      <h2>{{ errorMessage }} {{ FilmDescription }}</h2>
+
+      <br />
+    </div>
+    <h2 class="text-2xl text-yellow-300">
+      Summer Offer ! Buy now for 49,-/stk
+    </h2>
+  </main>
 </template>
 
-<script>
-export default {
-  name: "get-all-films",
-  data() {
-    return {
-      AllFilms: null,
-      errorMessage: null,
-    };
-  },
-  async created() {
-    // GET request using fetch with error handling
-    fetch("https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&sort=year&range=1-20&byTags=franchise:Avengers&lang=da")
-      .then(async (response) => {
-        const data = await response.json();
-        this.AllFilms = data.id;
-
-        // check for error response
-        if (!response.ok) {
-          // get error message from  default to response statusText
-          const error = (data && data.message) || response.statusText;
-          return Promise.reject(error);
-        }
-
-        this.AllFilms = data.entries;
-      })
-      .catch((error) => {
-        this.errorMessage = error;
-        console.error("There was an error!", error);
-      });
-  },
-};
-</script>
+<style>
+@import "@/index.css";
+</style>

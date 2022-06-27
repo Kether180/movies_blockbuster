@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <Series />
+    
     <h1 class="text-center text-2xl text-white">BEST SERIES IN SCANDINAVIA</h1>
     <p class="text-yellow-300 text-xl">
       <br />
@@ -43,10 +43,10 @@
 </template>
 
 <script>
-import Series from "@/components/Series.vue";
+
 export default {
   components: {
-    Series,
+    
   },
 };
 </script>
